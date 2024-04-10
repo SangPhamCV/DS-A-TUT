@@ -17,10 +17,8 @@ Cách làm việc với đệ quy:
 - Chia bài toán hiện tại thành bài toán nhỏ hơn (dễ hơn 1 mức so với bài toán hiện tại).
 - Không cần tính toán hết các trường hợp lặp lại tương tự của bài toán nhỏ hơn mà chúng ta đã chia.
 
-Ví dụ:
-Bài toán Fibonacci:
-function fib(n):
-  if (n<2):
-    return 1
-  else:
-    return fib(n-1) + fib(n-2)
+Các dạng đệ quy:
+- Đệ quy trực tiếp: Hàm gọi đến chính nó một cách lặp đi lặp lại trong nội dung bản thân của hàm.
+- Đệ quy gián tiếp: Hàm gọi chính nó thông qua việc gọi một hàm khác chứa nó.
+- Đệ quy đuôi: Lời gọi đệ quy là hàm được gọi cuối cùng được thực hiện trong thân hàm đệ quy.
+- Đệ quy đầu: Lời gọi đệ quy được thực hiện trước các thao tác khác trong hàm.

@@ -1,0 +1,26 @@
+Sử dụng để giải quyết vấn đề khi mà vấn đề có thể được chia thành các vấn đề con để giải quyết.
+
+Tính chất:
+- Tất cả những đệ quy đều có 2 trường hợp. Trương hợp cơ sở (thoát đệ quy) và đệ quy.
+- Tốn nhiêu dữ liệu hơn vòng lặp.
+- Stack Overflow
+
+Được sử dụng:
+- A: Quck sort and merge sort.
+- DS: Tree and Graph.
+- Dynamic Programming.
+- Chia để trị.
+- Tháp Hà Nội.
+
+Cách làm việc với đệ quy:
+- Đưa ra trường hợp điều kiện dễ nhất (trường hợp kết thúc lời gọi đệ quy).
+- Chia bài toán hiện tại thành bài toán nhỏ hơn (dễ hơn 1 mức so với bài toán hiện tại).
+- Không cần tính toán hết các trường hợp lặp lại tương tự của bài toán nhỏ hơn mà chúng ta đã chia.
+
+Ví dụ:
+Bài toán Fibonacci:
+function fib(n):
+  if (n<2):
+    return 1
+  else:
+    return fib(n-1) + fib(n-2)

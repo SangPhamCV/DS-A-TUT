@@ -23,5 +23,7 @@ Các dạng đệ quy:
 - Đệ quy đuôi: Lời gọi đệ quy là hàm được gọi cuối cùng được thực hiện trong thân hàm đệ quy.
 - Đệ quy đầu: Lời gọi đệ quy được thực hiện trước các thao tác khác trong hàm.
 
-Đinh lý thợ: Tìm độ phức tạp về thời gian của hàm.
-- T(n) = aT(n/b) + f(n)
+Cơ chế giải đệ quy:
+- Xác định trường hợp cơ sở của đệ quy. Mỗi lệnh gọi đệ quy phải tiến tới trường hợp cơ sở.
+- Triển khai một vòng lặp lại cho đến khi đạt đến trường hợp cơ sở.
+- Thưc hiện các thao tác biến đổi lặp trong vòng lặp để nó tiến đến trường hợp cơ sở.

@@ -22,3 +22,6 @@ Các dạng đệ quy:
 - Đệ quy gián tiếp: Hàm gọi chính nó thông qua việc gọi một hàm khác chứa nó.
 - Đệ quy đuôi: Lời gọi đệ quy là hàm được gọi cuối cùng được thực hiện trong thân hàm đệ quy.
 - Đệ quy đầu: Lời gọi đệ quy được thực hiện trước các thao tác khác trong hàm.
+
+Đinh lý thợ: Tìm độ phức tạp về thời gian của hàm.
+- T(n) = aT(n/b) + f(n)

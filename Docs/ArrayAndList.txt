@@ -1,1 +1,7 @@
 Các thao tác cơ bản với cấu trúc dữ liệu mảng và chuỗi kí tự:
+- Duyệt phần tử trong mảng (Traverse).
+- Chèn phần tử vào mảng (Insert).
+- Xóa phần tử khỏi mảng (Delete).
+- Tìm phần tử bất kỳ (Search).
+- Cập nhật giá trị của phần tử (Update).
+

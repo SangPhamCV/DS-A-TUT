@@ -1,1 +1,14 @@
+Phương pháp:
+- Xác định một con trỏ cho giới hạn trái và giới hạn phải đại diện cho cửa sổ hiện tại, thường cả hai đều bắt đầu từ 0.
+- Lặp lại mảng và giới hạn phải để "thêm" các phần tử vào cửa sổ.
+- Lặp cho đến khi nào ràng buộc không được thỏa mãn.
 
+Minh họa thuật toán:
+function fn(arr):
+  left = 0;
+  for right in [0, arr.length - 1]:
+    Do some thing logic to "add" element at arr[right] to window
+    while left < right AND condition from problem not met:
+      Do something logic to "remove" element at arr[left] from window
+      left++
+    Do some logic to update the answer

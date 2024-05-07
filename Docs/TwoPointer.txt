@@ -1,0 +1,9 @@
+Phương pháp 1:
+- Bắt đầu một con trỏ ở chỉ mục đầu tiên 0 và con trỏ kia ở chỉ mục cuối cùng input.lenght - 1;
+- Sử dụng vong lặp while cho đén khi các con trỏ bằng nhau.
+- Tại mỗi lần lặp của vòng lặp, di chuyển các con trỏ về phía nhau. Việc di chuyển con trỏ nào sẽ phụ thuộc vào bài toán mà ta càn giải quyết.
+
+Phương pháp 2 (Đối với 2 mảng):
+- Tạo 2 con trỏ, một con trỏ cho mỗi lần lặp. Mỗi con trỏ phải bắt đầu từ chỉ mục đầu tiên.
+- Sử dụng vòng lặp while cho đến khi một tron các con trỏ di chuyển đến cuối đối tượng lặp của nó.
+- Tại mỗi lần lặp của vòng lặp, di chuyển con trỏ về phía trước. Việc di chuyển con trỏ nào phụ thuộc vào bài toán mà ta cần giải quyết.
